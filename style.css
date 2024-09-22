@@ -1,0 +1,85 @@
+body {
+    background-color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto 50px;
+    padding: 50px;
+    padding-top: 10;
+    display: flex;
+    gap: 50px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.leftBlock {
+    width: 70%;
+}
+
+.rigthBlock {
+    width: 30%;
+    color: #73808D
+}
+
+.img {
+    height: 100px;
+}
+
+.miniTitle {
+    margin-top: 70px;
+    color: #73808D;
+}
+
+.dopInfo {
+    margin-top: 50px;
+}
+
+.dates {
+    color: #73808D;
+    font-size: 12px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.description {
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.firstDescr {
+    margin-top: 0;
+}
+
+.dates {
+    margin: 0;
+}
+
+.about {
+    margin-top: 100px;
+    font-weight: 400;
+}
+
+.dopInfoDescr {
+    margin: 0;
+}
+
+.dopInfoTitle {
+    font-weight: bold;
+    margin-bottom: 7px;
+}
