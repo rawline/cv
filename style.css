@@ -83,3 +83,15 @@ h2 {
     font-weight: bold;
     margin-bottom: 7px;
 }
+
+.dopInfoLink {
+    margin-bottom: 5px;
+    color: #73808D;
+    display: block;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.dopInfoLink:hover {
+    color: #59626b;
+}
