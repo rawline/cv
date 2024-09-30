@@ -12,6 +12,12 @@ body {
     font-size: 40px;
 }
 
+.titleBlock {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
 
 .container {
     max-width: 1000px;
@@ -19,7 +25,8 @@ body {
     padding: 50px;
     padding-top: 10;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 50px;
     box-sizing: border-box;
     background-color: #fff;
@@ -27,11 +34,13 @@ body {
 }
 
 .leftBlock {
-    width: 70%;
+    width: 100%;
 }
 
 .rigthBlock {
-    width: 30%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
     color: #73808D
 }
 
@@ -45,7 +54,7 @@ body {
 }
 
 .dopInfo {
-    margin-top: 50px;
+    width: 200px;
 }
 
 .dates {
@@ -83,6 +92,7 @@ h2 {
 .dopInfoTitle {
     font-weight: bold;
     margin-bottom: 7px;
+    margin-top: 0;
 }
 
 .dopInfoLink {
@@ -95,4 +105,26 @@ h2 {
 
 .dopInfoLink:hover {
     color: #59626b;
+}
+
+@media (max-width:850px) {
+    .img {
+        display: none;
+    }
+}
+
+@media (max-width:650px) {
+    .title {
+        font-size: 32px;
+    }
+}
+
+@media (max-width:513px) {
+    .title {
+        font-size: 25px;
+    }
+
+    .container {
+        padding: 15px;
+    }
 }
